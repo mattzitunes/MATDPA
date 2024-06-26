@@ -259,7 +259,7 @@ kk = 1;
         % SECOND SECOND
         % calculates the dpa profile in the whole thickness
         dpaprofile = dpa_profile(vacancies,VacPerIonA,CountsPerSec,Thickness,AlloyAtomDensity,time);
-        %dpa_profileVNRT(phonons,PhoPerIonA,CountsPerSec,Thickness,AlloyAtomDensity,time);
+        dpa_profileVNRT(phonons,PhoPerIonA,CountsPerSec,Thickness,AlloyAtomDensity,time);
         
         %THIRD THIRD
         % calculates the appm per time
