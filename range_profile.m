@@ -20,4 +20,4 @@ function rangeprofile = range_profile(depth,range,Thickness,AlloyAtomDensity,Cou
 
 
         T = table(depth, Implanted_Atoms, 'VariableNames',{'Depth [A]','Implanted Ions [at.%]'});
-        writetable(T, 'Figure2_Data_TimevsAverageDPA.txt','Delimiter','tab');
+        writetable(T, 'Figure2_Data_RangeImplantation.txt','Delimiter','tab');
